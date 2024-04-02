@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tax Details</title>
+</head>
+<body>
+    <h1>Tax Details</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>Salary</th>
+                <th>GPM tax</th>
+                <th>Health tax</th>
+                <th>Take home pay</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{ tax_card.name }}</td>
+                <td>{{ tax_card.surname }}</td>
+                <td>{{ tax_card.salary }}</td>
+                <td>{{ tax_card.gpm_tax }}</td>
+                <td>{{ tax_card.health_tax }}</td>
+                <td>{{ tax_card.take_home_pay }}</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
